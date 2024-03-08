@@ -16,7 +16,7 @@ const AuthFooter = () => {
         textAlign={matchDownSM ? 'center' : 'inherit'}
       >
         <Typography variant="subtitle2" color="secondary" component="span">
-          Able Pro ♥ crafted by Team{' '}
+          Nano Apps
           <Typography
             component={Link}
             variant="subtitle2"
@@ -28,7 +28,7 @@ const AuthFooter = () => {
           </Typography>
         </Typography>
 
-        <Stack direction={matchDownSM ? 'column' : 'row'} spacing={matchDownSM ? 1 : 3} textAlign={matchDownSM ? 'center' : 'inherit'}>
+        {/* <Stack direction={matchDownSM ? 'column' : 'row'} spacing={matchDownSM ? 1 : 3} textAlign={matchDownSM ? 'center' : 'inherit'}>
           <Typography
             variant="subtitle2"
             color="secondary"
@@ -59,7 +59,7 @@ const AuthFooter = () => {
           >
             Contact
           </Typography>
-        </Stack>
+        </Stack> */}
       </Stack>
     </Container>
   );

@@ -10,6 +10,7 @@ import RTLLayout from 'components/RTLLayout';
 import ScrollTop from 'components/ScrollTop';
 import Snackbar from 'components/@extended/Snackbar';
 import Notistack from 'components/third-party/Notistack';
+import Customization from 'components/Customization';
 
 import { dispatch } from 'store';
 import { fetchMenu } from 'store/reducers/menu';
@@ -42,6 +43,7 @@ const App = () => {
               <>
                 <Notistack>
                   <Routes />
+                  <Customization/>
                   <Snackbar />
                 </Notistack>
               </>
