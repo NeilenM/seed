@@ -7,7 +7,7 @@ import { Box, ButtonBase, CardContent, ClickAwayListener, Grid, Paper, Popper, S
 
 // project-imports
 import ProfileTab from './ProfileTab';
-import SettingTab from './SettingTab';
+// import SettingTab from './SettingTab';
 import Avatar from 'components/@extended/Avatar';
 import MainCard from 'components/MainCard';
 import Transitions from 'components/@extended/Transitions';
@@ -16,7 +16,9 @@ import useAuth from 'hooks/useAuth';
 
 // assets
 import avatar1 from 'assets/images/users/avatar-6.png';
-import { Setting2, Profile, Logout } from 'iconsax-react';
+import { 
+  // Setting2,
+   Profile, Logout } from 'iconsax-react';
 
 // types
 import { ThemeMode } from 'types/config';
@@ -154,9 +156,9 @@ const ProfilePage = () => {
                           <Avatar alt="profile user" src={avatar1} />
                           <Stack>
                             <Typography variant="subtitle1">{user?.name}</Typography>
-                            <Typography variant="body2" color="secondary">
+                            {/* <Typography variant="body2" color="secondary">
                               UI/UX Designer
-                            </Typography>
+                            </Typography> */}
                           </Stack>
                         </Stack>
                       </Grid>
@@ -184,7 +186,7 @@ const ProfilePage = () => {
                         label="Profile"
                         {...a11yProps(0)}
                       />
-                      <Tab
+                      {/* <Tab
                         sx={{
                           display: 'flex',
                           flexDirection: 'row',
@@ -195,15 +197,15 @@ const ProfilePage = () => {
                         icon={<Setting2 size={18} style={{ marginBottom: 0, marginRight: '10px' }} />}
                         label="Setting"
                         {...a11yProps(1)}
-                      />
+                      /> */}
                     </Tabs>
                   </Box>
                   <TabPanel value={value} index={0} dir={theme.direction}>
                     <ProfileTab handleLogout={handleLogout} />
                   </TabPanel>
-                  <TabPanel value={value} index={1} dir={theme.direction}>
+                  {/* <TabPanel value={value} index={1} dir={theme.direction}>
                     <SettingTab />
-                  </TabPanel>
+                  </TabPanel> */}
                 </MainCard>
               </ClickAwayListener>
             </Paper>
