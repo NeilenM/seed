@@ -46,7 +46,7 @@ const support: NavItemType = {
           id: 'validator',
           title: 'Inputs',
           type: 'item',
-          url: '/validations',
+          url: '/forms/validation',
         }
       ]
     },

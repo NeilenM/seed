@@ -14,7 +14,7 @@ const MaintenanceComingSoon = Loadable(lazy(() => import('pages/maintenance/comi
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
 const UmbrellaTable = Loadable(lazy(()=>  import('pages/table/react-table/umbrella')))
-const Validations = Loadable(lazy(()=>  import('pages/extra-pages/validations')))
+const Validations = Loadable(lazy(()=>  import('pages/extra-pages/validation')))
 
 
 // ==============================|| MAIN ROUTES ||============================== //
@@ -39,7 +39,7 @@ const MainRoutes = {
           element: <SamplePage/>
       },
       {
-        path: 'validations',
+        path: '/forms/validation',
         element: <Validations/>
     }
       ]

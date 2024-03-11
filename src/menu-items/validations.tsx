@@ -14,7 +14,7 @@ const validations: NavItemType = {
         {
             id: 'inputs',
             title: 'Inputs',
-            url: '/validations',
+            url: '/forms/validation',
             type: 'item'
         }
     ]
