@@ -9,10 +9,10 @@ import Avatar from 'components/@extended/Avatar';
 import Slider from 'react-slick';
 
 // assets
-import Avatar1 from 'assets/images/users/avatar-1.png';
-import Avatar2 from 'assets/images/users/avatar-2.png';
-import Avatar3 from 'assets/images/users/avatar-3.png';
-import Avatar4 from 'assets/images/users/avatar-4.png';
+import Avatar1 from 'assets/users/avatar-1.png';
+import Avatar2 from 'assets/users/avatar-2.png';
+import Avatar3 from 'assets/users/avatar-3.png';
+import Avatar4 from 'assets/users/avatar-4.png';
 
 // ==============================|| AUTH BLUR BACK SVG ||============================== //
 

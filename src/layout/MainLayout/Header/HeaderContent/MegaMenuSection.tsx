@@ -30,8 +30,8 @@ import { DRAWER_WIDTH } from 'config';
 
 // assets
 import { Windows, ArrowRight3 } from 'iconsax-react';
-import cardBack from 'assets/images/widget/img-dropbox-bg.svg';
-import imageChart from 'assets/images/mega-menu/chart.svg';
+import cardBack from 'assets/widget/img-dropbox-bg.svg';
+import imageChart from 'assets/mega-menu/chart.svg';
 
 // types
 import { ThemeMode } from 'types/config';

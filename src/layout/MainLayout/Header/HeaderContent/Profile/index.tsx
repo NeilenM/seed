@@ -15,7 +15,7 @@ import IconButton from 'components/@extended/IconButton';
 import useAuth from 'hooks/useAuth';
 
 // assets
-import avatar1 from 'assets/images/users/avatar-6.png';
+import avatar1 from 'assets/users/avatar-6.png';
 import { 
   // Setting2,
    Profile, Logout } from 'iconsax-react';

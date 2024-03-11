@@ -23,34 +23,43 @@ const support: NavItemType = {
   children: [
     {
       id: 'sample-page',
-      title: <FormattedMessage id="sample-page" />,
+      title: <FormattedMessage id="Tabla de valores" />,
       type: 'item',
       url: '/sample-page',
       icon: icons.samplePage
     },
-    {
-      id: 'documentation',
-      title: <FormattedMessage id="documentation" />,
-      type: 'item',
-      url: 'https://phoenixcoded.gitbook.io/able-pro/v/react/',
-      icon: icons.documentation,
-      external: true,
-      target: true,
-      chip: {
-        label: 'gitbook',
-        color: 'info',
-        size: 'small'
-      }
-    },
-    {
-      id: 'roadmap',
-      title: <FormattedMessage id="roadmap" />,
-      type: 'item',
-      url: 'https://phoenixcoded.gitbook.io/able-pro/v/react/roadmap',
-      icon: icons.roadmap,
-      external: true,
-      target: true
-    }
+    // {
+    //   id: 'sample-page',
+    //   title: <FormattedMessage id="sample-page" />,
+    //   type: 'item',
+    //   url: '/react-table',
+    //   icon: icons.samplePage
+    // },
+
+
+    // {
+    //   id: 'documentation',
+    //   title: <FormattedMessage id="documentation" />,
+    //   type: 'item',
+    //   url: 'https://phoenixcoded.gitbook.io/able-pro/v/react/',
+    //   icon: icons.documentation,
+    //   external: true,
+    //   target: true,
+    //   chip: {
+    //     label: 'gitbook',
+    //     color: 'info',
+    //     size: 'small'
+    //   }
+    // },
+    // {
+    //   id: 'roadmap',
+    //   title: <FormattedMessage id="roadmap" />,
+    //   type: 'item',
+    //   url: 'https://phoenixcoded.gitbook.io/able-pro/v/react/roadmap',
+    //   icon: icons.roadmap,
+    //   external: true,
+    //   target: true
+    // }
   ]
 };
 

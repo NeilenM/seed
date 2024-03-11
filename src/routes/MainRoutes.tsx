@@ -13,6 +13,8 @@ const MaintenanceComingSoon = Loadable(lazy(() => import('pages/maintenance/comi
 
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
+const UmbrellaTable = Loadable(lazy(()=>  import('pages/table/react-table/umbrella')))
+
 
 // ==============================|| MAIN ROUTES ||============================== //
 
@@ -29,8 +31,12 @@ const MainRoutes = {
       children: [
         {
           path: 'sample-page',
-          element: <SamplePage />
-        }
+          element: <UmbrellaTable/>
+        },
+        {
+          path: '/newmenu',
+          element: <SamplePage/>
+      }
       ]
     },
     {
